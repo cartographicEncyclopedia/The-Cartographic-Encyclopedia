@@ -1,0 +1,1170 @@
+:root {
+    --clanismButtonVisibility: none;
+    --nationButtonVisibility: none;
+    --napoleonButtonVisibility: none;
+    --unificationButtonVisibility: none;
+    --imperialism1ButtonVisibility: none;
+    --imperialism2ButtonVisibility: none;
+    --nationalBalkansButtonVisibility: none;
+    --pridefearButtonVisibility: none;
+
+    --britishPortugueseButtonVisibility: none;
+    --britishBelgianFriendshipVisibility: none;
+    --americanWesternEuropeFriendshipVisibility: none;
+    --dualButtonVisibility: none;
+    --tripleButtonVisibility: none;
+    --ententeButtonVisibility: none;
+    --balkanLeagueButtonVisibility: none;
+
+    --romeButtonVisibility: none;
+    --slavButtonVisibility: none;
+    --serbiaButtonVisibility: none;
+    --ottomanButtonVisibility: none;
+    --illyriaButtonVisibility: none;
+    --ottomanFallButtonVisibility: none;
+    --balkansButtonVisibility: none;
+    --annexBosniaButtonVisibility: none;
+    --assassinationButtonVisibility: none;
+
+    --allianceIntroDisplay: none;
+    --angloPortugueseAllianceDisplay: none;
+    --treatyOfLondonDisplay: none;
+    --USWestEuropeFwendsDisplay: none;
+    --dualAllianceDisplay: none;
+    --tripleAllianceDisplay: none;
+    --tripleEntenteDisplay: none;
+    --balkanLeagueDisplay: none;
+
+    --theBalkansDisplay: none;
+    --theRomanEmpireDisplay: none;
+    --theSlavInvasionsDisplay: none;
+    --riseSerbiaDisplay: none;
+    --riseOttomansDisplay: none;
+    --illyriaDisplay: none;
+    --declineOttomansDisplay:none;
+    --balkanWarsDisplay: none;
+    --annexBosniaDisplay: none;
+
+    --iconButtonBalkansDisplay: none;
+    --iconButtonSlavsDisplay: none;
+    --iconRomeBalkansDisplay: none;
+    --iconMedievalBalkansDisplay: none;
+    --iconOttomanBalkansDisplay: none;
+    --iconIllyriaDisplay: none;
+
+    --descriptionsAlliancesRightDisplay: none;
+    --descriptionsAlliancesLeftDisplay: none;
+
+    --descriptionsRightDisplay: none;
+    --descriptionsLeftDisplay: none;
+
+    --crossroadsStoryDisplay: none;
+    --religionStoryDisplay: none;
+    --naturalResourcesStoryDisplay: none;
+    --mediterraneanStoryDisplay: none;
+    --mountainsStoryDisplay: none;
+    --blackSeaStoryDisplay: none;
+    --riversStoryDisplay: none;
+
+    --slavMigrationStoryDisplay: none;
+    --bulgarMigrationStoryDisplay: none;
+    --avarStoryDisplay: none;
+    --southSlavStoryDisplay: none;
+
+    --romeStoryDisplay: none;
+    --balkansRomeStoryDisplay: none;
+
+    --theGreatSchismStoryDisplay: none;
+    --easternEmpireReligionDisplay: none;
+    --bulgariaReligionDisplay: none;
+    --vlachsReligionDisplay: none;
+    --turksReligionDisplay: none;
+    --albaniaReligionDisplay: none;
+    --serbiaReligionDisplay: none;
+    --bosnianReligionDisplay: none;
+    --hungarianReligionDisplay: none;
+    --croatSloveneReligionDisplay: none;
+    --dusanStoryDisplay: none;
+
+    --ottomanEmpireStoryDisplay: none;
+    --balkansUnderOttomansStoryDisplay: none;
+    --austriaStoryDisplay: none;
+
+    --illyriaAndPanSlavismStoryDisplay: none;
+    --croatianNationalismStoryDisplay: none;
+    --sloveneNationalismStoryDisplay: none;
+
+    --freeGreeceStoryDisplay: none;
+    --austriaHungaryStoryDisplay: none;
+    --balkansRevoltStoryDisplay: none;
+    --serbsRevoltStoryDisplay: none;
+    --russoTurkishWarStoryDisplay: none;
+    --sanStefanoStoryDisplay: none;
+    --congressOfBerlinStoryDisplay: none;
+
+    --balkanWars1StoryDisplay: none;
+    --balkanWars2StoryDisplay: none;
+    --austriaAnnexesBosniaStoryDisplay: none;
+
+    --angloPortugueseAllianceStoryDisplay: none;
+    --treatyOfLondonStoryDisplay: none;
+    --americaTiesStoryDisplay: none;
+    --dualAllianceStoryDisplay: none;
+    --tripleAllianceStoryDisplay: none;
+    --francoRussianAllianceStoryDisplay: none;
+    --tripleEntenteStoryDisplay: none;
+    --balkanLeagueStoryDisplay: none;
+
+}
+
+button{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    margin-left: 10px;
+}
+
+.button{
+    background-image: linear-gradient(#89ebf8, #b6fdb8);
+    background-color:#9deef9;
+}
+
+#causes{
+    position: relative;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#causesNationalismMap{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px, solid,rgb(3, 3, 121);
+    position: relative;
+    height: 60%;
+    
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#causesAlliancesMap{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px, solid,rgb(3, 3, 121);
+    position: relative;
+    height: 40%;
+    
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#causesBalkansMap{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px, solid,rgb(3, 3, 121);
+    position: relative;
+    height: 40%;
+    
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.closeButton{
+    background-color: red;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+#causesDescriptionsRight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(253, 102, 250, 0.9);
+    margin-left: 5%;
+    margin-right: 65%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    display: var(--descriptionsRightDisplay);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#causesDescriptionsLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(253, 102, 250, 0.9);
+    margin-left: 65%;
+    margin-right: 5%;
+    height: 100%;
+    overflow-y: auto;
+    display: var(--descriptionsLeftDisplay);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#causesDescriptionsAlliancesRight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(253, 102, 250, 0.9);
+    margin-left: 65%;
+    margin-right: 5%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    display: var(--descriptionsAlliancesRightDisplay);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#causesDescriptionsAlliancesLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(253, 102, 250, 0.9);
+    margin-left: 5%;
+    margin-right: 65%;
+    height: 100%;
+    overflow-y: auto;
+    display: var(--descriptionsAlliancesLeftDisplay);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.iconic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    overflow-x: auto;
+}
+
+.icon{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#crossroadsStory{
+    display: var(--crossroadsStoryDisplay);
+}
+
+#naturalResourcesStory{
+    display: var(--naturalResourcesStoryDisplay);
+}
+
+#religionStory{
+    display: var(--religionStoryDisplay);
+}
+
+#mediterraneanStory{
+    display: var(--mediterraneanStoryDisplay);
+}
+
+#mountainsStory{
+    display: var(--mountainsStoryDisplay);
+}
+
+#blackSeaStory{
+    display: var(--blackSeaStoryDisplay);
+}
+
+#riversStory{
+    display: var(--riversStoryDisplay);
+}
+
+#slavMigrationStory{
+    display: var(--slavMigrationStoryDisplay);
+}
+
+#bulgarMigrationStory{
+    display: var(--bulgarMigrationStoryDisplay);
+}
+
+#avarStory{
+    display: var(--avarStoryDisplay);
+}
+
+#southSlavStory{
+    display: var(--southSlavStoryDisplay);
+}
+
+#romeStory{
+    display: var(--romeStoryDisplay);
+}
+
+#balkansRomeStory{
+    display: var(--balkansRomeStoryDisplay);
+}
+
+.iconMedievalBalkans{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconMedievalBalkansDisplay);
+}
+
+.iconAngloPortugueseAlliance{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--angloPortugueseAllianceDisplay);
+}
+
+.iconTreatyOfLondon{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--treatyOfLondonDisplay);
+}
+
+.iconUSWestEuropeFwends{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--USWestEuropeFwendsDisplay);
+}
+
+.iconDualAlliance{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--dualAllianceDisplay);
+}
+
+.iconTripleAlliance{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--tripleAllianceDisplay);
+}
+
+.iconTripleEntente{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 4.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--tripleEntenteDisplay);
+}
+
+.iconBalkanLeague{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--balkanLeagueDisplay);
+}
+
+.iconButtonBalkans{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconButtonBalkansDisplay);
+}
+
+.iconButtonSlavs{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconButtonSlavsDisplay);
+}
+
+.iconRomeBalkans{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconRomeBalkansDisplay);
+}
+
+.iconOttomanBalkans{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconOttomanBalkansDisplay);
+}
+
+.iconIllyria{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--iconIllyriaDisplay);
+}
+
+.russoTurkishWarButton{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--declineOttomansDisplay);
+}
+
+.iconBalkanWars{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    border: 2px, solid, blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 3%;
+    height: 3.5%;
+    text-align: center;
+    font-size: 80%;
+    display: var(--balkanWarsDisplay);
+}
+
+#treatyOfWindsorButton{
+    margin-left: 27%;
+    margin-top: 47%;
+}
+
+#treatyOfLondonButton{
+    margin-left: 43%;
+    margin-top: 26.5%;
+}
+
+#USWestEuropeFwendsButton{
+    margin-left: 50%;
+    margin-top: 34.5%;
+}
+
+#dualAllianceButton{
+    margin-left: 41%;
+    margin-top: 35.2%;
+}
+
+#tripleAllianceButton{
+    margin-left: 35%;
+    margin-top: 41%;
+}
+
+#francoRussianButton{
+    margin-left: 50%;
+    margin-top: 8%;
+}
+
+#britishEntenteButton{
+    margin-left: 45%;
+    margin-top: 7%;
+}
+
+#balkanLeagueStoryButton{
+    margin-left: 45%;
+    margin-top: 45%;
+}
+
+#angloPortugueseAllianceStory{
+    display: var(--angloPortugueseAllianceStoryDisplay);
+}
+
+#treatyOfLondonStory{
+    display: var(--treatyOfLondonStoryDisplay);
+}
+
+#americaTiesStory {
+    display: var(--americaTiesStoryDisplay);
+  }
+  
+  #dualAllianceStory {
+    display: var(--dualAllianceStoryDisplay);
+  }
+  
+  #tripleAllianceStory {
+    display: var(--tripleAllianceStoryDisplay);
+  }
+  
+  #francoRussianAllianceStory {
+    display: var(--francoRussianAllianceStoryDisplay);
+  }
+  
+  #tripleEntenteStory {
+    display: var(--tripleEntenteStoryDisplay);
+  }
+  
+  #balkanLeagueStory {
+    display: var(--balkanLeagueStoryDisplay);
+  }
+
+#crossroadsButton{
+    margin-top: 34%;
+    margin-left: 44%;
+}
+
+#naturalResourcesButton{
+    margin-top: 30%;
+    margin-left: 47.5%;
+}
+
+#religionButton{
+    margin-top: 32.5%;
+    margin-left: 55%;
+}
+
+#mediterraneanButton{
+    margin-top: 45%;
+    margin-left: 37.5%;
+}
+
+#blackSeaButton{
+    margin-top: 27.5%;
+    margin-left: 67.5%;
+}
+
+#mountainsButton{
+    margin-top: 22.5%;
+    margin-left: 42.5%;
+}
+
+#riversButton{
+    margin-top: 22%;
+    margin-left: 50%;
+}
+
+#romeStoryButton{
+    margin-top: 26%;
+    margin-left: 37.5%;
+}
+
+#romeBalkansButton{
+    margin-top: 28%;
+    margin-left: 51.5%;
+}
+
+#slavMigrationButton{
+    margin-top: 11.5%;
+    margin-left: 52%;
+}
+
+#bulgarMigrationButton{
+    margin-top: 22.25%;
+    margin-left: 42%;
+}
+
+#southSlavMigrationButton{
+    margin-top: 26.5%;
+    margin-left: 30%;
+}
+
+#avarsButton{
+    margin-top: 14.7%;
+    margin-left: 32.5%
+}
+
+#theGreatSchismButton {
+    margin-top: 52.5%;
+    margin-left: 62.25%;
+  }
+  
+  #easternOrthodoxButton {
+    margin-top: 49.5%;
+    margin-left: 61.5%;
+  }
+  
+  #bulgariaReligionButton {
+    margin-top: 47.25%;
+    margin-left: 55%;
+  }
+  
+  #albaniaReligionButton {
+    margin-top: 56%;
+    margin-left: 31%;
+  }
+  
+  #serbiaReligionButton {
+    margin-top: 52.75%;
+    margin-left: 36%;
+  }
+  
+  #bosnianReligionButton {
+    margin-top: 43.75%;
+    margin-left: 22%;
+  }
+  
+  #hungarianReligionButton {
+    margin-top: 33.33%;
+    margin-left: 35.33%;
+  }
+  
+  #romaniaReligionButton {
+    margin-top: 33.8%;
+    margin-left: 58%;
+  }
+  
+  #croatSloveneReligionButton {
+    margin-top: 36.9%;
+    margin-left: 14.6%;
+  }
+  
+  #turksButton {
+    margin-top: 59%;
+    margin-left: 70%;
+  }
+  
+  #dusanButton {
+    margin-top: 50%;
+    margin-left: 34%;
+  }
+
+  #ottomanMightButton{
+    margin-top: 29.8%;
+    margin-left: 68%;
+  }
+
+#ottomanBalkansButton{
+    margin-top: 22%;
+    margin-left: 59.5%;
+}
+
+#austriaButton{
+    margin-top: 14.25%;
+    margin-left: 43%;
+}
+
+#illyriaMovementButton{
+    margin-left: 36.75%;
+    margin-top: 27.25%;
+}
+
+#croatianNationalismButton{
+    margin-left: 38%;
+    margin-top: 30%;
+}
+
+#sloveneNationalismButton{
+    margin-left: 36.5%;
+    margin-top: 24.75%;
+
+}
+
+#greeceFreeButton {
+    margin-left: 43%;
+    margin-top: 55%;
+}
+
+#austriaHungaryButton {
+    margin-left: 37%;
+    margin-top: 29%;
+}
+
+#balkansRevoltButton {
+    margin-left: 49.5%;
+    margin-top: 43.25%;
+}
+
+#serbsRevoltButton {
+    margin-left: 40%;
+    margin-top: 40%;
+}
+
+#russoTurkishWarButton {
+    margin-left: 68%;
+    margin-top: 20.5%;
+}
+
+#sanStefanoButton {
+    margin-left: 55.25%;
+    margin-top: 43%;
+}
+
+#congressOfBerlinButton {
+    margin-left: 17%;
+    margin-top: 14.5%;
+}
+
+#austriaAnnexesBosniaButton{
+    margin-left: 22.5%;
+    margin-top: 35%;
+}
+
+#balkanWars1{
+    margin-left: 31%;
+    margin-top: 38%;
+}
+
+#balkanWars2{
+    margin-left: 37%;
+    margin-top: 41%;
+
+}
+
+  #theGreatSchismStory {
+    display: var(--theGreatSchismStoryDisplay);
+  }
+  
+  #easternEmpireReligion {
+    display: var(--easternEmpireReligionDisplay);
+  }
+  
+  #bulgariaReligion {
+    display: var(--bulgariaReligionDisplay);
+  }
+  
+  #vlachsReligion {
+    display: var(--vlachsReligionDisplay);
+  }
+  
+  #turksReligion {
+    display: var(--turksReligionDisplay);
+  }
+  
+  #albaniaReligion {
+    display: var(--albaniaReligionDisplay);
+  }
+  
+  #serbiaReligion {
+    display: var(--serbiaReligionDisplay);
+  }
+  
+  #bosnianReligion {
+    display: var(--bosnianReligionDisplay);
+  }
+  
+  #hungarianReligion {
+    display: var(--hungarianReligionDisplay);
+  }
+  
+  #croatSloveneReligion {
+    display: var(--croatSloveneReligionDisplay);
+  }
+
+  #dusanStory {
+    display: var(--dusanStoryDisplay);
+  }
+
+#ottomanEmpireStory{
+    display: var(--ottomanEmpireStoryDisplay);
+}
+
+#balkansUnderOttomansStory{
+    display: var(--balkansUnderOttomansStoryDisplay);
+}
+
+#austriaStory{
+    display: var(--austriaStoryDisplay);
+}
+
+#freeGreeceStory {
+    display: var(--freeGreeceStoryDisplay);
+}
+
+#austriaHungaryStory {
+    display: var(--austriaHungaryStoryDisplay);
+}
+
+#balkansRevoltStory {
+    display: var(--balkansRevoltStoryDisplay);
+}
+
+#serbsRevoltStory {
+    display: var(--serbsRevoltStoryDisplay);
+}
+
+#russoTurkishWarStory {
+    display: var(--russoTurkishWarStoryDisplay);
+}
+
+#sanStefanoStory {
+    display: var(--sanStefanoStoryDisplay);
+}
+
+#congressOfBerlinStory {
+    display: var(--congressOfBerlinStoryDisplay);
+}
+
+.lvl1{
+    background-color:#89ebf8
+}
+
+.lvl2{
+    background-color:#70eec8
+}
+
+.lvl3{
+    background-color:#6af89a
+}
+
+.lvl4{
+    background-color:#b9f95f
+}
+
+.lvl5{
+    background-color:#e6fb47
+}
+
+.lvl5-5{
+    background-color: #fbec47
+}
+
+.lvl6{
+    background-color:#f9d63b
+}
+
+.lvl7{
+    background-color:#fca314
+}
+
+.lvl8{
+    background-color:#fb591e
+}
+
+.lvl9{
+    background-color:#ff0b0b
+}
+
+#allianceIntro{
+    display: var(--allianceIntroDisplay);
+}
+
+#angloPortugueseAlliance{
+    display: var(--angloPortugueseAllianceDisplay);
+}
+
+#treatyOfLondon{
+    display: var(--treatyOfLondonDisplay);
+}
+
+#USWestEuropeFwends{
+    display: var(--USWestEuropeFwendsDisplay);
+}
+
+#dualAlliance{
+    display: var(--dualAllianceDisplay);
+}
+
+#tripleAlliance{
+    display: var(--tripleAllianceDisplay);
+}
+
+#tripleEntente{
+    display: var(--tripleEntenteDisplay);
+}
+
+#balkanLeague{
+    display: var(--balkanLeagueDisplay)
+}
+
+#theBalkans{
+    display: var(--theBalkansDisplay);
+}
+
+#theRomanEmpire{
+    display: var(--theRomanEmpireDisplay);
+}
+
+#theSlavInvasions{
+    display: var(--theSlavInvasionsDisplay);
+}
+
+#riseSerbia{
+    display: var(--riseSerbiaDisplay);
+}
+
+#riseOttomans{
+    display: var(--riseOttomansDisplay);
+}
+
+#illyria{
+    display: var(--illyriaDisplay);
+}
+
+#declineOttomans{
+    display: var(--declineOttomansDisplay);
+}
+
+#balkanWars{
+    display: var(--balkanWarsDisplay);
+}
+
+#annexBosnia{
+    display: var(--annexBosniaDisplay);
+}
+
+#clanismButton{
+    display: var(--clanismButtonVisibility);
+}
+
+#nationButton{
+    display: var(--nationButtonVisibility);
+}
+
+#napoleonButton{
+    display: var(--napoleonButtonVisibility);
+}
+
+#unificationButton{
+    display: var(--unificationButtonVisibility);
+}
+
+#imperialism1Button{
+    display: var(--imperialism1ButtonVisibility);
+}
+
+#imperialism2Button{
+    display: var(--imperialism2ButtonVisibility);
+}
+
+#nationalBalkansButton{
+    display: var(--nationalBalkansButtonVisibility);
+}
+
+#pridefearButton{
+    display: var(--pridefearButtonVisibility);
+}
+
+#britishPortugueseButton{
+    display: var(--britishPortugueseButtonVisibility);
+}
+
+#britishBelgianFriendship{
+    display: var(--britishBelgianFriendshipVisibility);
+}
+
+#americanWesternEuropeFriendship{
+    display: var(--americanWesternEuropeFriendshipVisibility);
+}
+
+#dualButton{
+    display: var(--dualButtonVisibility);
+}
+
+#tripleButton{
+    display: var(--tripleButtonVisibility);
+}
+
+#ententeButton{
+    display: var(--ententeButtonVisibility);
+}
+
+#balkanLeagueButton{
+    display: var(--balkanLeagueButtonVisibility);
+}
+
+#romeButton{
+    display: var(--romeButtonVisibility);
+}
+
+#slavButton{
+    display: var(--slavButtonVisibility);
+}
+
+#serbiaButton{
+    display: var(--serbiaButtonVisibility);
+}
+
+#ottomanButton{
+    display: var(--ottomanButtonVisibility);
+}
+
+#illyriaButton{
+    display: var(--illyriaButtonVisibility)
+}
+
+#ottomanDeclineButton{
+    display: var(--ottomanFallButtonVisibility);
+}
+
+#balkansButton{
+    display: var(--balkansButtonVisibility);
+}
+
+#annexBosniaButton{
+    display: var(--annexBosniaButtonVisibility);
+}
+
+#assassinationButton{
+    display: var(--assassinationButtonVisibility);
+}
+
+#illyriaAndPanSlavismStory{
+    display: var(--illyriaAndPanSlavismStoryDisplay);
+}
+
+#croatianNationalismStory{
+    display: var(--croatianNationalismStoryDisplay);
+}
+
+#sloveneNationalismStory{
+    display: var(--sloveneNationalismStoryDisplay);
+}
+
+#balkanWars1Story {
+    display: var(--balkanWars1StoryDisplay);
+}
+
+#balkanWars2Story {
+    display: var(--balkanWars2StoryDisplay);
+}
+
+#austriaAnnexesBosniaStory {
+    display: var(--austriaAnnexesBosniaStoryDisplay);
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    padding: 10px;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.big{
+    border:rgb(3, 3, 121), 3px, solid;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(105, 1, 6);
+}
+
+pre {
+    object-fit: contain;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: pre-wrap;
+}
