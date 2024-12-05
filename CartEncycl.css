@@ -1,0 +1,31 @@
+#topicButton {
+    color:black;
+    background-image: linear-gradient(#89ebf8, #b6fdb8);
+    background-color:#9deef9;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    margin-left: 10px;
+}
+
+#topicPage{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+}
+
+body {
+    background-color: rgb(105, 1, 6);
+}
+
+#mainBody {
+    border:rgb(3, 3, 121), 3px, solid;
+    background-color: white;
+}
+
+h1{
+    margin-left: 10px
+}
+
+h3{
+    margin-left: 10px;
+}
