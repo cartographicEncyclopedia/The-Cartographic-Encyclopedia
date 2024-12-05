@@ -6721,12 +6721,23 @@
     font-size:medium;
 }
 
+@media screen and (max-width: 1400px){
+    #map{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #map{
+        width: 100%;
+    }
+}
+
 #map{
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 10px;
     border: 3px, solid,#268a01;
     position: relative;
-    width: 650px;
     align-content: center;
     
     box-sizing: border-box;
