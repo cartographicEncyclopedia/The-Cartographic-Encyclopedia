@@ -6721,6 +6721,11 @@
     font-size:medium;
 }
 
+#container:after{
+    content:"";
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 1400px){
     #map{
         width: 50%;
