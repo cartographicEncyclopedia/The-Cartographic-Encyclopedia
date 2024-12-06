@@ -6723,7 +6723,8 @@
 
 #container:after{
     content:"";
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     
 }
 
@@ -6753,8 +6754,7 @@
 
 #map{
     
-    margin-right: 2.5%;
-    border: 3px, solid,#268a01;
+    border: 1%, solid,#268a01;
     position: relative;
     align-content: center;
     
@@ -6770,17 +6770,17 @@
 p{
     font-family:'Times New Roman', Times, serif;
     font-size: 85%;
-    padding: 10px;
+    padding: 2.5%;
 }
 
 .big{
-    border:#268a01, 3px, solid;
+    border:#268a01, 1%, solid;
     background-color: white;
 }
 
 div{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 h3{
