@@ -6731,11 +6731,23 @@
     #map{
         width: 50%;
     }
+    .button{
+        width: 15%;
+    }
 }
 
 @media screen and (max-width: 700px){
     #map{
         width: 100%;
+    }
+    .button{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .button{
+        width: 40%;
     }
 }
 
@@ -6794,7 +6806,6 @@ button{
 
 .button{
     background-color: #adf593;
-    width: 20%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
