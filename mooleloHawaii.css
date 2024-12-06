@@ -6723,7 +6723,7 @@
 
 #container:after{
     content:"";
-    margin-left: 2.5%;
+    
 }
 
 @media screen and (max-width: 1400px){
@@ -6739,7 +6739,7 @@
 }
 
 #map{
-    margin-left: 2.5%;
+    
     margin-right: 2.5%;
     border: 3px, solid,#268a01;
     position: relative;
@@ -6766,8 +6766,8 @@ p{
 }
 
 div{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h3{
