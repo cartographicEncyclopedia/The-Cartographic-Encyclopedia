@@ -6742,7 +6742,7 @@
 
 @media screen and (max-width: 700px){
     #map{
-        width: 100%;
+        width: 90%;
     }
     .button{
         width: 20%;
@@ -6763,7 +6763,7 @@
 
 #map{
     
-    border: 1%, solid,#268a01;
+    border: 3px, solid,#268a01;
     position: relative;
     align-content: center;
     
@@ -6783,8 +6783,9 @@ p{
 }
 
 .big{
-    border:#268a01, 1%, solid;
+    border:#268a01, 3px, solid;
     background-color: white;
+    width: 90%;
 }
 
 div{
