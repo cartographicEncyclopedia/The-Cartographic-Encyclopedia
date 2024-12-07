@@ -6718,7 +6718,6 @@
     background-color: #adf593;
     border: 2px, solid, #268a01;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: %;
 }
 
 #container:after{
@@ -6738,6 +6737,9 @@
     .nextButton{
         font-size: 90%;
     }
+    p{
+        padding: 2.5%;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -6750,6 +6752,9 @@
     .nextButton{
         font-size: 80%;
     }
+    p{
+        padding: 2.5%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -6758,6 +6763,9 @@
     }
     .nextButton{
         font-size: 45%;
+    }
+    p{
+        padding: 0.5%;
     }
 }
 
@@ -6779,7 +6787,6 @@
 p{
     font-family:'Times New Roman', Times, serif;
     font-size: 85%;
-    padding: 2.5%;
 }
 
 .big{
