@@ -6765,7 +6765,8 @@
         width: 20%;
     }
     .nextButton{
-        font-size: 80%;
+        font-size: 60%;
+        padding: -1%;
     }
     p{
         padding: 2.5%;
@@ -6778,6 +6779,7 @@
     }
     .nextButton{
         font-size: 45%;
+        padding: -2%;
     }
     p{
         padding: 0.5%;
